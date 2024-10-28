@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.header{
+  
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: #271c1c;
+}
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+   
+}
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+
+}
+
+.logo-container a{
+    color: #fffcf2e8;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Sacramento", cursive;
+    font-weight: 600;
+    font-size: x-large;
+   
+}
+
+.logo-container h1 span{
+    font-weight: 400;
+    color:  #60695d;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    color: black;
+}
+
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.navigation a li:hover{
+    color: #101010;
+    font-weight: 600;
+   }
+   
+.navigation a:hover{
+    transition: all .8s ease;
+    background-color: white;
+   }
+
+.login-button{
+    position: absolute;
+    top: 75px;
+    left: 85%;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 35px;
+    font-family: "Poppins";
+    font-size: 16px;
+    background-color: rgb(255, 255, 255); 
+    cursor: pointer; 
+}
+
+.login-button a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+}
+
+.login-button:hover{
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.free-shipping{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #f7e5d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free{
+    font-family: "Poppins";
+    font-weight: 500;
+}
+/* picture header and yung text  */
+
+.header-picture-aboutus{
+    position: relative;
+    height: 600px;
+    width: auto;
+}
+.about-us-header{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+.title-header{
+    position: absolute;
+    font-family: "Sacramento", cursive;
+     font-weight: 400;
+    font-style: italic;
+    font-size: 90px;
+    color: #fffcf2e8;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+    left: 55%;
+    top: 30%;
+ 
+}
+.title-header span{
+    font-weight: 200;
+    color:  #60695d;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: italic;
+    
+   
+}
+.title-header-2{
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fafafa;
+    font-size: 100px;
+}
+/*  ENDDD picture header and yung text  */
+
+/* contents / containers */
+body{
+    background-color: #ebebeb;
+}
+.container-1{
+    position: relative;
+    top: 700px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "Montserrat";
+    width: 55%;
+    
+}
+.image-1{
+    position: absolute;
+    
+}
+.text-container{
+    position: absolute;
+    top: 50px;
+    left: 55%;
+    text-indent: 2cm;
+    font-size: large;
+}
+.text-container h1{
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+
+}
+.container-2{
+    position: relative;
+    font-family: "Montserrat";
+    top: 1500px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 55%;
+    
+}
+
+.image-2{
+    position: absolute;
+    left: 55%;
+    
+}
+.text-container-2{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    text-indent: 2cm;
+    font-size: large;
+    
+}
+.text-container-2 h1{
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    margin-top: 0;
+    padding: 0;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+
+}
+#cursive{
+    font-family: "Sacramento", cursive;
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+/*  ENDDD contents / containers */
+/* footer */
+footer{
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#101010 ;
+    color: white;
+    text-align: center;
+    opacity: .7;
+}

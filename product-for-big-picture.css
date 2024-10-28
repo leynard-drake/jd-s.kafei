@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background-color: #ebebeb;
+}
+
+.header{
+    
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: #271c1c;
+}
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+   
+}
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+
+}
+
+.logo-container a{
+    color: #fffcf2e8;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Poppins";
+    font-weight:900;
+}
+
+.logo-container h1 span{
+    font-weight: 200;
+    color:  #60695d;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.navigation a li:hover{
+    color: #101010;
+    font-weight: 600;
+   }
+   
+.navigation a:hover{
+    transition: all .8s ease;
+    background-color: white;
+   }
+
+.login-button{
+    position: absolute;
+    top: 75px;
+    left: 85%;
+    border: none;
+    border-radius: 60px;
+    padding: 9px 20px;
+    font-family: "Poppins";
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);  
+}
+
+
+.login-button a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+}
+
+.login-button:hover{
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.free-shipping{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #f5f0dad8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free{
+    font-family: "Poppins";
+    font-weight: 700;
+}
+.containers{  
+    position: relative;
+    width: 80%;
+    height: 2200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+.container-1{
+    position: relative;
+    background-color: white;
+    position: absolute;
+    
+    
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    width: 80%;
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    border-radius: 30px;
+}
+
+.container-2{
+    
+
+    position: absolute;
+    background-color: white;
+    
+    width: 80%;
+   
+    top: 440px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+}
+.container-3{
+    background-color: white;
+
+    position: absolute;
+    
+    
+    
+    top: 780px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    
+    width: 80%;
+   
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+}
+.container-4{
+    background-color: white;
+    
+    position: absolute;
+    
+    
+    width: 80%;
+    
+    top: 1120px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    
+   
+   
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+}
+.container-5{
+    
+    background-color: white;
+    
+    position: absolute;
+    
+    
+    width: 80%;
+    
+    top: 1460px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+
+    
+    overflow: hidden;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+}
+.container-6{
+    background-color: white;
+    position: absolute;
+    
+    width: 80%;
+    
+    top: 1800px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    border-radius: 30px;
+}
+.add-ons{
+    position: absolute;
+    font-family: "Montserrat";
+    left: 80%;
+    top:45px;
+}
+.order-button{
+    position: absolute;
+    left: 85%;
+    top: 70%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 40px;
+    cursor: pointer;
+    background-color: rgba(10,10,10,1);
+    color: white;
+}
+.input-number{
+    width: 40px;
+}
+.description{
+    font-family: "Montserrat";
+    position: absolute;
+    left: 350px;
+    top: 30px;
+    
+}
+.order-button:hover{
+    transition: all .3s ease;
+    background-color: rgba(10,10,10, .8);
+}
+
+img{
+    
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    
+}
+
+.old-price{
+    font-size: 16px;
+    font-family: "GFS Didot", serif;
+    text-decoration: line-through;
+    color: red;
+    
+}
+.price{
+    font-family: "GFS Didot", serif;
+    color: green;
+}
+
+.background-opacity-black{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .75;
+    
+}
+body{
+    overflow: hidden;
+}
+.big-picture{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 90%;
+    box-shadow: none;
+}
+.back-button{
+    position: absolute;
+    left: 90%;
+    top: 10%;
+    color: black;
+    font-family: "Concert One", sans-serif;
+    font-size: xx-large;
+}
+.back-button:hover{
+    color: red;
+   opacity: .9;
+}
+
+a{
+    
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    display: inline-block;
+}
+.next{
+    position: absolute;
+    left: 90%;
+    top: 49%;
+    color: black;
+    font-family: "Concert One", sans-serif;
+    font-size: xx-large;
+}
+.next:hover{
+    opacity: .8;
+}
+.previous{
+    position: absolute;
+    left: 10%;
+    top: 49%;
+    color: black;
+    font-family: "Concert One", sans-serif;
+    font-size: xx-large;
+}
+.previous:hover{
+    opacity: .8;
+}

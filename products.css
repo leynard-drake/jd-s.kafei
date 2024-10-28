@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=GFS+Didot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background-color: #ebebeb;
+}
+
+.header{
+    
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: #271c1c;
+}
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+   
+}
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+
+}
+
+.logo-container a{
+    color: #fffcf2e8;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Sacramento", cursive;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.logo-container h1 span{
+    font-weight: 200;
+    color:  #60695d;
+    
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    color: black;
+}
+
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.navigation a li:hover{
+    color: #101010;
+    font-weight: 600;
+   }
+   
+.navigation a:hover{
+    transition: all .8s ease;
+    background-color: white;
+   }
+
+.login-button{
+    position: absolute;
+    top: 75px;
+    left: 85%;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 35px;
+    font-family: "Poppins";
+    font-size: 16px;
+    background-color: rgb(255, 255, 255); 
+    cursor: pointer; 
+
+}
+
+.login-button a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+}
+
+.login-button:hover{
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.free-shipping{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #f7e5d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free{
+    font-family: "Poppins";
+    font-weight: 500;
+}
+/* end of navigation */
+
+/* start of content */
+.containers{  
+    position: relative;
+    width: 80%;
+    height: 2200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+  
+}
+.title{
+    text-align: center;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+    font-size: 70px;
+    font-family: "Caprasimo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #512c1d;
+   
+}
+
+/* CONTAINERS STARTS HERE */
+.container-1{
+    position: relative;
+    background-color: white;
+    position: absolute;
+    
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    width: 80%;
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+}
+
+.container-2{
+    position: absolute;
+    background-color: white;
+    
+    width: 80%;
+    top: 440px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+}
+.container-3{
+    background-color: white;
+
+    position: absolute;
+    top: 780px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    width: 80%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+}
+.container-4{
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    top: 1120px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+}
+.container-5{
+    
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    
+    top: 1460px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+}
+.container-6{
+    background-color: white;
+    position: absolute;
+    
+    width: 80%;
+    
+    top: 1800px;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    border-radius: 30px;
+}
+.add-ons{
+    position: absolute;
+    font-family: "Montserrat";
+    left: 80%;
+    top:4px;
+}
+.order-button{
+    position: absolute;
+    left: 85%;
+    top: 70%;
+    border-radius: 10px;
+    padding: 15px 40px;
+    cursor: pointer;
+    background-color: rgba(10,10,10,1);
+    color: white;
+    transition: all .3s ease;
+    border: 2px solid black;
+}
+.order-button:hover{
+    transition: all .3s ease;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+
+.input-number{
+    width: 40px;
+}
+.description{
+    font-family: "Montserrat";
+    position: absolute;
+    left: 350px;
+    top: 30px;
+    
+}
+
+img{
+    
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    transition: .3s ease;
+        
+}
+
+.old-price{
+    font-size: 16px;
+    font-family: "GFS Didot", serif;
+    text-decoration: line-through;
+    color: red;
+    
+}
+.price{
+    font-family: "GFS Didot", serif;
+    color: green;
+    font-size: xx-large;
+}
+.containers h1{
+    font-family: "Enriqueta", serif;
+    font-weight: bolder;
+    color: #512c1d;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: .3s ease; 
+        
+}
+/* end of menu */
+
+
+.fa-solid.fa-xmark{
+    position: absolute;
+    top: 5%;
+    left: 93%;
+    cursor: pointer;
+}
+.fa-solid.fa-xmark:hover{
+    color: red;
+}   
+
+/* ANG HIRAP!!! */
+
+.checkout-container{
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    
+   
+}
+.checkout-container{
+    
+    
+    border: 1px solid black;
+    background-color: #fff;
+    width: 500px;
+    height: 700px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.text-header{
+    padding-top: 10px;
+    font-weight: 600;
+    margin: 20 0;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+.checkout-container form{
+    margin-top: -20px;
+}
+.data{
+    height: 45px;
+    width: 80%;
+    margin: 40px auto;
+}
+form .data label{
+    font-size: 18px;
+}
+form .data input{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    /* border: 1px solid lightgrey ; */
+}
+
+form .button-container{
+    margin: 30px 0px;
+    height: 45px;
+}
+#calculate-change{
+    height: 100%;
+    width: 80%;
+    margin-top: -23px;
+    margin-left: 50%;
+    margin-bottom: 10px;
+    transform: translate(-50%,0);
+    cursor: pointer;
+}
+.button-2{
+    height: 100%;
+    width: 80%;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    cursor: pointer;
+}
+
+.checkout-container{
+    animation: popup .4s ease 0s 1 normal none;
+}
+  
+@keyframes popup {
+    0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+  

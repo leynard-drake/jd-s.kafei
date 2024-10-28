@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./products.css">
+    <title>JD's ka fei</title>
+    <script src="products.js"></script>
+    <script src="https://kit.fontawesome.com/a334aa9151.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="body">
+    <div class="free-shipping">
+        <p class="free">EVERYTHING IS MADE WITH LOVE</p>
+    </div>
+    <div class="header">
+        <div class="inner-header">
+
+            <div class="logo-container">
+                <a href="index.html"><h1>JD's <span>ka fei</span></h1></a>
+            </div>
+
+            <ul class="navigation">
+                <a href="./index.html"><li>HOME</li></a>
+                <a href="./products.html"><li>PRODUCTS</li></a>
+                <a href="./About.html"><li>ABOUT US</li></a>
+                <a href="./contactus.html"><li>CONTACT US</li></a>
+            </ul>
+            
+            <button class="login-button">
+                <a href="./login.html"> <i class="fa-solid fa-user"></i> &nbsp; LOG IN</a>
+            </button>
+            
+        </div>
+    </div>
+
+    
+    <div class="containers">
+                <p class="title">Beverages</p>    
+        <div class="container-1">
+           <a href="./product-1.html"><img src="./pictures/cappucino.png" alt="cappuccino" title="cappuccino" ></a>
+
+           <div class="description">
+                <h1 id="flavor-1">Cappuccino</h1>
+                <h2 class="old-price">₱100</h2>
+                <h2 class="price" id="price-1">99</h2>
+                <br>
+                <p>A cappuccino is a beloved espresso-based hot coffee drink made with <br>
+                    layering of espresso, steamed milk, and milk foam on top. The taste of <br>
+                    cappuccinos can be described as creamy, smooth, and balanced. </p>
+           </div>
+           
+           <div class="add-ons">
+            <h3>Add-ons / Ingredients:</h3>
+            <p><span id="ingredients1-ice">Ice</span> <input type="checkbox" id="checkbox1-ice" ></p> 
+            <p><span id="ingredients1-sugar">Sugar</span> <input type="checkbox" id="checkbox1-sugar" checked ></p>
+            <p><span id="ingredients1-milk">Milk </span> <input type="checkbox" id="checkbox1-milk" checked ></p> 
+            <p> <span id="ingredients1-espresso-shots" >Espresso shots</span> <input type="number" id="checkbox1-espresso-shots" class="input-number" value="2" min="1"></p> 
+            <p class="espresso-roast">Espresso Roast:
+                <select name="espresso-roast" id="ingredients1-espresso-roast"> 
+                    <option value="1" class="ingredients1-espresso-roast">Light roast</option>
+                    <option value="2" class="ingredients1-espresso-roast" selected >Medium roast</option>
+                    <option value="3" class="ingredients1-espresso-roast">Dark roast</option>
+                    <option value="4" class="ingredients1-espresso-roast">Decaf</option>
+                </select>
+            </p>
+            <p> <span id="ingredients1-quantity" >Quantity: </span> <input type="number" id="checkbox1-quantity" class="input-number" value="1" min="1"></p> 
+           </div>
+           <button class="order-button" onclick="openForm1()" id="button-checkout">ORDER</button>
+        </div>
+
+
+            <!-- 2 -->
+        <div class="container-2">
+            <a href="./product-2.html"><img src="./pictures/mocha.png" alt="mocha" title="mocha" ></a>
+
+            <div class="description">
+                <h1 id="flavor-2">Mocha</h1>
+                <h2 class="old-price">₱ 100</h2>
+                <h2 class="price" id="price-2">199</h2>
+                <br>
+                <p>A mocha is a coffee drink that traditionally combines the flavors <br>of espresso, 
+                     steamed milk and chocolate. It has a rich and indulgent <br>taste,making it  perfect
+                      for those who enjoy the combination <br>of coffee and chocolate.</p>
+           </div>
+
+           <div class="add-ons">
+            <h3>Add-ons / Ingredients:</h3>
+            <p><span id="ingredients2-ice">Ice</span> <input type="checkbox" id="checkbox2-ice" ></p>
+            <p><span id="ingredients2-sugar" >Sugar</span><input type="checkbox" id="checkbox2-sugar"   checked></p>
+            <p><span id="ingredients2-milk" >Milk</span> <input type="checkbox" id="checkbox2-milk"  checked></p>
+            <p><span id="ingredients2-espresso-shots">Espresso shots </span> <input type="number" id="checkbox2-espresso-shots" class="input-number" value="2" min="1"></p>
+            <p><span id="ingredients2-mocha-sauce">Mocha sauce pump/s: </span><input type="number" id="checkbox2-mocha-sauce" class="input-number" value="2" min="1"></p>
+            <p class="espresso-roast">Espresso Roast:
+            <select name="espresso-roast" id="ingredients2-espresso-roast" > 
+                <option value="1">Light roast</option>
+                <option value="2" >Medium roast</option>
+                <option value="3">Dark roast</option>
+                <option value="4">Decaf</option>
+            </select>
+            <p> <span id="ingredients2-quantity" >Quantity: </span> <input type="number" id="checkbox2-quantity" class="input-number" value="1"min="1" ></p> 
+
+           </div>
+
+           <button class="order-button" onclick="openForm2()" id="button-checkout-1">ORDER</button>
+        </div>
+
+
+        <!-- 3 -->
+
+        <div class="container-3">
+            <a href="./product-3.html"><img src="./pictures/black coffee.png" alt="black coffee" title="black coffee"></a>
+            <div class="description">
+                <h1 id="flavor-3">Black Brewed Coffee</h1>
+                <h2 class="old-price">₱ 100</h2>
+                <h2 class="price" id="price-3">299</h2>
+                <br>
+                <p>Black coffee is a popular hot coffee drink consisting of ground coffee<br> and water and 
+                    can be prepared using different brewing methods. It's <br>commonly served without any 
+                    additives like cream or sugar, making its <br>bold taste invigorating  and 
+                    enjoyablefor many coffee fans. </p>
+           </div>
+
+           <div class="add-ons">
+            <h3>Add-ons / Ingredients:</h3>
+            <p><span id="ingredients3-ice">Ice </span><input type="checkbox"  id="checkbox3-ice" ></p>
+            <p><span id="ingredients3-sugar" >Sugar </span> <input type="checkbox" id="checkbox3-sugar" ></p>
+            <p><span id="ingredients3-milk">Milk </span><input type="checkbox" id="checkbox3-milk" ></p>
+            <p><span id="ingredients3-espresso-shots">Espresso shots</span> <input type="number" id="checkbox3-espresso-shots" class="input-number"  value="3" min="1"></p>
+            <p class="espresso-roast">Espresso Roast:
+            <select name="espresso-roast" id="ingredients3-espresso-roast" > 
+                <option value="1">Light roast</option>
+                <option value="2" selected>Medium roast</option>
+                <option value="3" selected>Dark roast</option>
+                <option value="4">Decaf</option>
+            </select>
+            <p> <span id="ingredients3-quantity" >Quantity: </span> <input type="number" id="checkbox3-quantity" class="input-number" value="1" min="1"></p> 
+
+           </div>
+
+           <button class="order-button" onclick="openForm3()" id="button-checkout">ORDER</button>
+
+        </div>
+
+        
+
+        <div class="container-4">
+            <a href="./product-4.html"><img src="./pictures/mocha cola.png" alt="iced mocha cola" title="iced mocha cola" ></a>
+            <div class="description">
+                <h1 id="flavor-4">Mocha Cola</h1>
+                <h2 class="old-price">₱ 100</h2>
+                <h2 class="price" id="price-4">399</h2>
+                <br>
+                <p>The Mocha Cola is a popular Brazilian coffee sweet made with three <br>ingredients: 
+                    ⅓ cup of coffee or espresso, ⅓ cup of cold chocolate milk,<br> and ⅔ cup of cola. 
+                    This summer staple is designed to be <br>
+                    a sweet, refreshing treat.  </p>
+           </div>
+
+           <div class="add-ons">
+
+            <h3>Add-ons / Ingredients:</h3>
+            <p><span id="ingredients4-ice">Ice</span> <input type="checkbox" id="checkbox4-ice"   checked></p>
+            <p><span id="ingredients4-cola">Cola</span> <input type="checkbox" id="checkbox4-cola"  checked></p>
+            <p><span id="ingredients4-choco-milk">Cold Chocolate Milk</span> <input type="checkbox" id="checkbox4-choco-milk"  checked></p>
+            <p><span id="ingredients4-espresso-shots">Espresso shots </span><input type="number" id="checkbox4-espresso-shots" class="input-number"  value="1" min="1"></p>
+            <p><span id="ingredients4-mocha-sauce">Mocha sauce pump/s: </span><input type="number" id="checkbox4-mocha-sauce" class="input-number" value="2"min="1" ></p>
+            <p class="espresso-roast">Espresso Roast:
+            <select name="espresso-roast" id="ingredients4-espresso-roast" > 
+                <option value="1">Light roast</option>
+                <option value="2" >Medium roast</option>
+                <option value="3">Dark roast</option>
+                <option value="4">Decaf</option>
+            </select>
+            <p> <span id="ingredients4-quantity" >Quantity: </span> <input type="number" id="checkbox4-quantity" class="input-number" value="1"min="1" ></p> 
+
+           </div>
+
+           <button class="order-button" onclick="openForm4()" id="button-checkout" >ORDER</button>
+
+        </div>
+
+        <div class="container-5">
+            <a href="./product-5.html"><img src="./pictures/iced latte.png" alt="iced latte" title="iced latte" ></a>
+            <div class="description">
+                <h1 id="flavor-5">Iced Latte</h1>
+                <h2 class="old-price">₱ 100</h2>
+                <h2 class="price" id="price-5">499</h2>
+                <br>
+                <p>An iced latte is a variation on the traditional latte—but<br> served cold. This 
+                    refreshing coffee drink is made with espresso,<br> milk and ice. Brewed espresso 
+                    is combined with cold milk <br>and ice, creating a smooth, creamy coffee drink.  </p>
+           </div>
+
+           <div class="add-ons">
+            <h3>Add-ons / Ingredients:</h3>
+            <p><span id="ingredients5-ice">Ice </span><input type="checkbox" id="checkbox5-ice"  checked></p>
+            <p><span id="ingredients5-sugar">Sugar </span><input type="checkbox" id="checkbox5-sugar" ></p>
+            <p><span id="ingredients5-milk">Milk</span> <input type="checkbox" id="checkbox5-milk" ></p>
+            <p><span id="ingredients5-espresso-shots">Espresso shots</span> <input type="number" id="checkbox5-espresso-shots" class="input-number" value="2" min="1"></p>
+            <p class="espresso-roast">Espresso Roast:
+                <select name="espresso-roast" id="ingredients5-espresso-roast"> 
+                    <option value="1">Light roast</option>
+                    <option value="2"  selected >Medium roast</option>
+                    <option value="3">Dark roast</option>
+                    <option value="4">Decaf</option>
+                </select>
+                <p> <span id="ingredients5-quantity" >Quantity: </span> <input type="number" id="checkbox5-quantity" class="input-number" value="1" min="1"></p> 
+
+           </div>
+
+           <button class="order-button" onclick="openForm5()" id="button-checkout">ORDER</button>
+        </div>
+
+        <div class="container-6">
+            <a href="./product-6.html"><img src="./pictures/ice americano.png" alt="iced americano" title="iced americano" ></a>
+            <div class="description">
+                <h1 id="flavor-6">Iced Americano</h1>
+                <h2 class="old-price">₱ 100</h2>
+                <h2 class="price" id="price-6">599</h2>
+                <br>
+                <p>Espresso shots are topped with water to produce a light layer of crema, <br>
+                     then served over ice. The result is this wonderfully rich cup with <br>
+                     depth and nuance. </p>
+           </div>
+
+           <div class="add-ons">
+            <h3>Add-ons / Ingredients:</h3>
+            <p ><span id="ingredients6-ice">Ice </span><input type="checkbox" id="checkbox6-ice"   checked></p>
+            <p><span id="ingredients6-sugar">Sugar </span><input type="checkbox" id="checkbox6-sugar"  ></p>
+            <p><span id="ingredients6-milk">Milk </span><input type="checkbox" id="checkbox6-milk" ></p>
+            <p><span id="ingredients6-espresso-shots">Espresso shots</span> <input type="number" id="checkbox6-espresso-shots"  class="input-number" value="3" min="1"></p>
+
+            <p class="espresso-roast">Espresso Roast:
+                <select name="espresso-roast" id="ingredients-espresso-roast" > 
+                    <option value="1">Light roast</option>
+                    <option value="2" >Medium roast</option>
+                    <option value="3" selected>Dark roast</option>
+                    <option value="4">Decaf</option>
+                </select>
+            <p> <span id="ingredients6-quantity" >Quantity: </span> <input type="number" id="checkbox6-quantity" class="input-number" value="1" min="1"></p> 
+
+           </div>
+
+         <button class="order-button" onclick="openForm6()" id="button-checkout">ORDER</button>
+        </div>
+    </div>
+    </div>
+
+    <!-- order form pop up ang hirap nito hehe -->
+    <div class="center" >
+        <div class="checkout-container" id="checkout-container">
+            <p><i class="fa-solid fa-xmark fa-xl" onclick="closeForm()"></i></p>
+            <div class="text-header">Check Out</div>
+            <form>
+                <div class="data" >
+                    <label>Name:</label>
+                    <input type="text" id="name-text" required="required">
+                </div>
+                <div class="data">
+                    <label>Address:</label>
+                    <input type="text" id="address-text" required>
+                </div>
+                <div class="data">
+                    <label>Flavor:
+                    <input type="text" id="flavor-text" disabled >
+                </div>
+                <div class="data">
+                    <label>Price:
+                    <input type="text" id="price-text" disabled >
+                </div>
+                <div class="data">
+                    <label>Payment:
+                    <input type="text" id="payment-text" required>
+                </div>
+                <div class="data">
+                    <label>Change:
+                    <input type="text" id="change-text" disabled>
+                </div>
+                
+                <div class="button-container">     
+                        <input type="submit" id="calculate-change" value="Calculate" onclick="calculateChange()">
+                        <input type="submit" value="Check Out" class="button-2" onclick="receipt()">
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <!-- ENDDD form pop up ang hirap nito hehe -->
+</body>
+</html>

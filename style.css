@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.cdnfonts.com/css/brittany-signature');
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Sacramento&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.header{
+    
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: #271c1c;
+}
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+   
+}
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+
+}
+
+.logo-container a{
+    color: #fffcf2e8;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Sacramento", cursive;
+    font-weight: 600;
+    font-size: x-large;
+}
+.logo-container h1 span{
+    font-weight: 200;
+    color:  #60695d;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    color: black;
+}
+
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.navigation a li:hover{
+    color: #101010;
+    font-weight: 600;
+   }
+   
+.navigation a:hover{
+    transition: all .8s ease;
+    background-color: white;
+   }
+
+.login-button{
+    position: absolute;
+    top: 75px;
+    left: 85%;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 35px;
+    font-family: "Poppins";
+    font-size: 16px;
+    background-color: rgb(255, 255, 255); 
+    cursor: pointer; 
+}
+.login-button a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+}
+
+.login-button:hover{
+    transition: all 0.3s ease;
+    opacity: .8;
+}
+
+.free-shipping{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color:#f7e5d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free{
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+/* contents */
+body{
+    overflow: hidden;
+}
+.containers{
+    
+    display: grid;
+    grid-template-columns: 300px;
+    align-items: center;
+
+}
+
+.mainTxt{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: white;
+    line-height: 1.5;
+    
+   
+}
+.span1{
+    
+    padding-left: 60px;
+    font-family: "Sacramento", cursive;
+    font-weight: 300;
+    font-size:60px;
+    
+}
+.span2{
+    letter-spacing: 10px;
+    font-size: 160px;
+    font-family: 'Brittany Signature', sans-serif;
+    font-weight: 550;
+    /* text-shadow: -10px 10px 0px #00e6e6,
+                 -20px 20px 0px #01cccc,
+                 -30px 30px 0px #00bdbd; */
+                 	
+text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+#textAnimationDelay{
+    overflow: hidden;
+    white-space: nowrap;
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;    
+    animation-fill-mode: forwards;
+}
+@keyframes typing {
+    0%{
+        
+        opacity: 0;
+        width: 0;
+    }
+    30%{
+        opacity: 1;
+        
+    }
+    100%{
+        width: 100%;
+        
+    }
+}
+.mainBttn{
+    position: absolute;
+    border-radius: 10px;
+    top: 600px;
+    left: 1500px;
+    height: 90px;
+    width: 240px;
+    background-color: white;
+    font-family: "Poppins";
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+
+.Bgmain{
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+    /*box-shadow: 0px 0px 100px 1px gray;*/
+    
+
+}
+
+.layer2{
+    position: absolute;
+    top: 800px;
+    margin: 0px;
+    padding: 0px;
+    background-color:  #fefcf0;
+    size: auto;
+    width: 100%;
+    height: 300px;
+    
+}
+
+.txt2{
+    position: relative;
+    top: 90px;
+    font-family: "Poppins";
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+}

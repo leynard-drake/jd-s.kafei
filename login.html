@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>Gym Membership</title>
+    <script src="login.js"> </script>
+    <script src="https://kit.fontawesome.com/a334aa9151.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="free-shipping">
+        <p class="free">
+            JOIN OUR COMMUNITY
+        </p>
+    </div>
+    <div class="header">
+        <div class="inner-header">
+
+            <div class="logo-container">
+                <a href="index.html"><h1>JD's <span>ka fei</span></h1></a>
+            </div>
+
+            <ul class="navigation">
+                <a href="index.html"><li>HOME</li></a>
+                <a href="./products.html"><li>PRODUCTS</li></a>
+                <a href="./About.html"><li>ABOUT US</li></a>
+                <a href="contactus.html"><li>CONTACT US</li></a>
+            </ul>
+            
+            <button  class="login-button" >
+                <a href="./login.html" onclick="loggedOut"> <i class="fa-solid fa-user" ></i> &nbsp; LOG IN</a>
+            </button>
+        
+            
+        </div>
+    </div>
+    <!-- conntents starts here -->
+    <div class="opaque-background">
+
+    </div>
+    
+    <div class="login-container" id="login-container">
+        <div class="text-header">Glad to have <br>you back!</div>
+        
+        <div class="data" >
+            <label><i class="fa-solid fa-user"></i> Username</label>
+            <input type="text" id="username-text" required="required">
+        </div>
+        <div class="data">
+            <label><i class="fa-solid fa-lock"></i> Password</label>
+            <input type="password" id="password-text" required>
+        </div>
+        <div class="data">
+            <a href="" class="forgot-password" onclick="forgotPassword()">Forgot password?</a>
+        </div>
+        <div class="button-container">
+            <a href="" id="logged-in"><input type="submit" value="SIGN IN" class="signin-button" onclick="signIn()">
+            </a>
+        </div>
+        <div class="data">
+            <a href="" class="register" onclick="showRegister()">Don't have a account? <span>Join us now!</span></a>
+        </div>
+    </div>
+
+    <div class="register-container" id="register-container">
+        <div class="text-header">Create an <br> account</div>
+        
+        <div class="data" >
+            <label><i class="fa-solid fa-user"></i> Username</label>
+            <input type="text" id="register-username-text" required="required">
+        </div>
+        <div class="data">
+            <label><i class="fa-solid fa-lock"></i> Password</label>
+            <input type="password" id="register-password-text" required>
+        </div>
+        <div class="data">
+            <label><i class="fa-solid fa-lock"></i> Confirm Password</label>
+            <input type="password" id="register-confirm-password-text" required>
+        </div>
+        
+        <div class="button-container">
+             <a href="" id="singning-in"><input type="submit" value="Create Account" class="signin-button" onclick="register()"></a>
+        </div>
+        <div class="data">
+            <a href="" class="register" onclick="goBackSignin()">Have an account already? <span>Sign in</span></a>
+        </div>
+    </div>
+</body>
+</html>

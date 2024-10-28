@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.cdnfonts.com/css/brittany-signature');
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Sacramento&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.header{
+    
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: #271c1c;
+}
+.inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+   
+}
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+
+}
+
+.logo-container a{
+    color: #fffcf2e8;   
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Sacramento", cursive;
+    font-weight: 600;
+    font-size: x-large;
+}
+.logo-container h1 span{
+    font-weight: 200;
+    color:  #60695d;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    color: black;
+}
+
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+.navigation a li:hover{
+    color: #101010;
+    font-weight: 600;
+   }
+   
+.navigation a:hover{
+    transition: all .8s ease;
+    background-color: white;
+   }
+
+.login-button{
+    position: absolute;
+    top: 75px;
+    left: 85%;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 35px;
+    font-family: "Poppins";
+    font-size: 16px;
+    background-color: rgb(255, 255, 255); 
+    cursor: pointer; 
+}
+.login-button a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+}
+
+.login-button:hover{
+    transition: all 0.3s ease;
+    opacity: .8;
+}
+
+.free-shipping{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color:#f7e5d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free{
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+/* contents */
+/* LOGIN FORM */
+
+body{
+    overflow: hidden;
+}
+.opaque-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #d38e40;
+    opacity: .5 ;
+
+}
+.text-header{
+    font-family: "Poppins";
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+    font-size: 48px;
+    
+}
+.login-container{
+background-color: #f7e5d2;
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    width: 500px;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.data{
+    height: 50px;
+    width: 80%;
+    margin: 40px auto;
+}
+/* input */
+.data input{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    /* border: 1px solid lightgrey ; */
+    border-radius: 10px;
+    border: 1.5px solid;
+}
+.forgot-password{
+    font-size: large;
+    font-family: "Montserrat";
+    color:#017449;
+    text-decoration: underline;
+}
+/* button container */
+.button-container{
+    margin: 30px 0px;
+    height: 50px;
+}
+.signin-button{
+    height: 100%;
+    width: 80%;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+    cursor: pointer;
+    margin-bottom: 0;
+   
+}
+.signin-button{
+    background-color: #017449;
+    font-size: large;
+    font-family: "Montserrat";
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: all .3s ease;
+    border: 2px solid #017449;;
+}
+.signin-button:hover{
+    transition: all .3s ease;
+    color:#017449;
+    background-color: white;
+    border: 2px solid #017449;
+}
+.register{
+    font-family: "Montserrat";
+    margin-left: 5%;
+    font-size: 20px;
+    color: black;
+}
+.register span{
+    color:#017449;
+}
+/* yung mga text */
+label{
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+/* register starts here */
+.register-container{
+    background-color: #f7e5d2;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.login-container{
+    animation: popup .4s ease 0s 1 normal none;
+}
+  
+@keyframes popup {
+    0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.register-container{
+    animation: popup .4s ease 0s 1 normal none;
+}
+  
+@keyframes popup {
+    0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+  
